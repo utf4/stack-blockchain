@@ -1,0 +1,15 @@
+.quota-currency-widget {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .quota-currency-widget {
+    font-size: 1rem;
+  }
+}

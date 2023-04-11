@@ -1,0 +1,40 @@
+.first-widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+select,
+input {
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 0.5rem;
+  width: 100%;
+  max-width: 20rem;
+}
+
+@media (min-width: 768px) {
+  .first-widget {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  label {
+    margin-right: 1rem;
+  }
+
+  select,
+  input {
+    margin: 0 1rem;
+    width: auto;
+    max-width: none;
+  }
+}
